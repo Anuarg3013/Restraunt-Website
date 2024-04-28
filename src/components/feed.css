@@ -1,0 +1,223 @@
+
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Handlee|Indie+Flower&display=swap");
+
+
+
+/* body {
+  background: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/spices-background-11.jpg")
+    no-repeat;
+  background-size: cover;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+} */
+.feed{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+#title {
+  font-size: 50px;
+  background-color: #000;
+  width: 80%;
+  font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  max-width: 900px;
+  margin: 30px auto;
+  color: rgba(255, 255, 51);
+  opacity: 0.8;
+  border-radius: 7px;
+  padding: 5px;
+  text-align: center;
+}
+
+#main-form-layout {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(47, 9, 9, 0.9);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#number {
+  margin-bottom: 50px;
+}
+
+.recommend-box {
+  margin-bottom: 50px;
+}
+
+
+#description {
+  font-size: 30px;
+  color: #fff;
+  font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.row-tab {
+  font-family: "Handlee", cursive;
+  font-size: 20px;
+  color: #f7c331;
+  letter-spacing: 0.1rem;
+}
+
+.col-left-side {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+.col-right-side {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 25px;
+  width: 300px;
+  border: 1px solid #f7c331;
+  border-radius: 5px;
+  padding: 6px;
+  margin: 10px;
+  resize: vertical;
+}
+
+#dropdown {
+  height: 35px;
+  width: 312px;
+  border: 1px solid #f7c331;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.radio {
+  float: left;
+  margin-right: 6px;
+  padding-top: 20px;
+  margin-left:5px;
+}
+
+.checkbox {
+  margin-top: 10px;
+  padding: 4px 0;
+  display: block;
+  position: relative;
+  margin-left:5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  transform: scale(1.3);
+}
+
+#comments {
+  height: 100px;
+  resize: vertcal;
+  width: 300px;
+}
+
+#submit {
+  background-color: #f7c331;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  border: 0px solid;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: orange;
+  color: white;
+} 
+
+.comment-box {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+  #main-form-layout {
+    width: 90%;
+  }
+ 
+  #dropdown {
+    width: 60%;
+  }
+  #comments {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  #title {
+    width: 80%;
+    font-size: 60px;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #main-form-layout {
+    width: 90%;
+  }
+  #description-box {
+    font-size: 40px;
+  }
+
+  .col-left-side {
+    width: 90%;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+  }
+  .row-tab {
+    font-size: 20px;
+  }
+  .col-right-side {
+    width: 90%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+ }
+
+  .input-field {
+    width: 90%;
+  }
+
+  #dropdown {
+    width: 70%;
+  }
+  #comments {
+    width: 90%;
+  }
+  select {
+    width: 100%;
+  }
+}
